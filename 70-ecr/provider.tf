@@ -13,9 +13,9 @@ terraform {
     region = "us-east-1"
     dynamodb_table = "81s-locking"
   }
+  }
 
 provider "aws" {
   # Configuration options
   region = "us-east-1"
-}
 }
